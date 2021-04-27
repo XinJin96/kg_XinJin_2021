@@ -26,6 +26,7 @@ for(let i=0;i<englishNumArray.length;i++)
 }
 //print out the convertion string
 alert(tem);
+document.getElementById("demo").innerHTML = tem;
 
 //to read every digit by using for loop, convert and store into Num string
 function convertor(q1)
